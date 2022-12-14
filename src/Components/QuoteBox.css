@@ -1,0 +1,18 @@
+.quote-box{
+    border: 1px solid black;
+    min-height: 40vh;
+    min-width: 30vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.quote-box h5{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 0;
+    right: 1rem;
+}
